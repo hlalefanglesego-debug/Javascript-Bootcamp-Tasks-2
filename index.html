@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Results</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Result Checker</h1>
+
+    <div class="container">
+        <label>Student Name:</label>
+        <input type="text" id="studentName">
+
+        <label>Student Mark:</label>
+        <input type="number" id="studentMark" min="0" max="100">
+
+        <button onclick="checkResult()">Submit</button>
+
+        <div id="result"></div>
+
+        <h2>Submitted Students</h2>
+        <ul id="studentList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
